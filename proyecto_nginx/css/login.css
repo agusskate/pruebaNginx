@@ -1,0 +1,119 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+
+.background {
+    background-image: url("/multimedia/fondoLogin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(6px); /*Difuminado*/
+    z-index: -2;
+}
+.overlay {
+    background-color: rgba(0, 14, 61, 0.9); /* Dark blue with 70% opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure this is above the background */
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo{
+    width: 40%;
+    margin-bottom: 5%;
+}
+ 
+
+.login {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 87%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
