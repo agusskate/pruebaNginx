@@ -3,7 +3,7 @@
 }
 
 .background {
-    background-image: url("/multimedia/fondoOpciones.jpg");
+    background-image: url("./multimedia/fondoOpciones.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
