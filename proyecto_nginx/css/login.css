@@ -4,7 +4,7 @@
 
 
 .background {
-    background-image: url("/multimedia/fondoLogin.jpg");
+    background-image: url("./multimedia/fondoLogin.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
